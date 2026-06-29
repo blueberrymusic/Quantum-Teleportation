@@ -1,0 +1,16 @@
+# Quantum Teleportation Lab — Python dependencies
+# Versions confirmed working on Windows 11 with Python 3.13 (2026-06-28).
+# Install with:  pip install -r requirements.txt
+
+qiskit==2.4.2
+qiskit-aer==0.17.2
+matplotlib==3.11.0
+numpy==2.4.6
+
+# Required by qiskit's matplotlib circuit drawer: qc.draw(output='mpl', ...)
+# Only triggers when a circuit is drawn (e.g. run_project), so it's easy to miss.
+pylatexenc==2.10
+
+# Jupyter (to open and run the .ipynb notebooks)
+notebook==7.5.7
+ipykernel==7.3.0

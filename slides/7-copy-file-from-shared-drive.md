@@ -4,7 +4,7 @@ On the machine running **Teleport-Bob**, copy the file Alice shared from `S:`
 into your local project folder:
 
 ```powershell
-Copy-Item "S:\qb_state_483912.txt" "C:\labs\quantum-folder\"
+Copy-Item "Z:\Non-NV Labs\Quantum\qb_state_483912.txt" "C:\labs\quantum\"
 ```
 
 Then in Bob's notebook set the filename so it can load the state:

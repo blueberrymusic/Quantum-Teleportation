@@ -3,7 +3,7 @@
 In PowerShell, move into the project folder:
 
 ```powershell
-cd "C:/labs/quantum-folder"
+cd "C:/labs/quantum"
 ```
 
 All the following commands run from inside this folder.

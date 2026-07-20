@@ -7,7 +7,7 @@ Open a **new** PowerShell window (the first one is busy running Jupyter) and cop
 the file to the shared drive:
 
 ```powershell
-Copy-Item "C:\labs\quantum-folder\qb_state_483912.txt" "S:\"
+Copy-Item "C:\labs\quantum\qb_state_483912.txt" "Z:\Non-NV Labs\Quantum\"
 ```
 
 Also tell Bob the **filename** and the two measured bits (`bit_ms`, `bit_ma`).
